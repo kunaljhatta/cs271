@@ -1,2 +1,2 @@
-# cs271
-Here's all the projects for the class.
+git add README.md
+git commit -m "Adding initial README file."
