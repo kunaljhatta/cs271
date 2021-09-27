@@ -1,2 +1,2 @@
-git add README.md
-git commit -m "Adding initial README file."
+Kunal Jhatta
+This repository is for CS271 with the course projects.
