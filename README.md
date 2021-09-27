@@ -1,2 +1,1 @@
-Kunal Jhatta
-This repository is for CS271 with the course projects.
+Kunal Jhatta repositories for CS271 with the course projects.
