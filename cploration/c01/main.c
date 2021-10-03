@@ -49,7 +49,7 @@ int max(int x, int y) {
         return max;
     }
 
-    / Provided */
+    /* Provided */
     int main() {
         // Exercise 1
         printf("Sum of 1..100 is %d\n", add100());
