@@ -3,9 +3,9 @@
 /* Ex.1: Return the larger value */
 int max(int a, int b) {
     if (a > b) {
-        return x;
+        return a;
     } else if (b > a) {
-        return y;
+        return b;
     } else {
     return a;
   }
