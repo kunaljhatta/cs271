@@ -1,3 +1,5 @@
+#ifndef __SYMTABLE_H__
+#define __SYMTABLE_H__
 #include <string.h>
 #include <stdlib.h>
 #include <ctype.h>
@@ -15,6 +17,8 @@ typedef struct Symbol {
 } Symbol;
 
 int hash(char *str);
-struct Symbol *find(char *key);
-void insert(char *key, hack_addr addr);
-void display_table();
+struct Symbol * symtable_find(char * key);
+void symtable_insert(char* key, hack_addr addr);
+void symtable_display_table();
+
+#endif
