@@ -28,17 +28,15 @@ unsigned int hashCode(char * key)  {
 
 
 struct Symbol *symtable_find(char * key) {
-   //get the hash 
+
    int hashIndex = hashCode(key);  
-   //move in array until an empty 
+   
    while(hashArray[hashIndex] != NULL) {
       if(hashArray[hashIndex]->name == key) 
          return hashArray[hashIndex]; 
 			
-      //go to next cell
       ++hashIndex;
-		
-      //wrap around the table
+     
       hashIndex %= SYMBOL_TABLE_SIZE;
    }        
    return NULL;        
@@ -50,15 +48,12 @@ void symtable_insert(char* key, hack_addr addr) {
    item->address = addr;  
    item->name = key;
 
-   //get the hash 
    int hashIndex = hashCode(key);
 
-   //move in array until an empty or deleted cell
+ 
    while(hashArray[hashIndex] != NULL && hashArray[hashIndex]->name != NULL) {
-      //go to next cell
       ++hashIndex;
-		
-      //wrap around the table
+	   
       hashIndex %= SYMBOL_TABLE_SIZE;
    }
     hashArray[hashIndex] = item;
