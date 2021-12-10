@@ -1,2 +1,2 @@
 # Kunal Jhatta Hack Assembler #
-Steps/Directions - This program assembles .asm files into hack binary machine code. To start with this go to the main and choose the directory to the desired .asm file. For instance "./main ../asmFile/add.asm" should output a file in the same directory with the name, "filename.asm.hack".
+Steps/Directions - This program assembles .asm files into hack binary machine code. To start with this go to the main and choose the directory to the desired .asm file. For instance "./main ../asmFile/add.asm" should output a file in the same directory with .hack at the end of the file.
