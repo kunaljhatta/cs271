@@ -67,7 +67,7 @@ typedef enum dest_id {
     DEST_NULL,
     DEST_M,
     DEST_D,
-    DEST_DM,
+    DEST_MD,
     DEST_A,
     DEST_AM,
     DEST_AD,
